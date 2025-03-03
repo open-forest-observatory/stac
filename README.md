@@ -1,6 +1,6 @@
 # SpatioTemporal Asset Catalog
 
-**SpatioTemporal Asset Catalogs (STAC)** is a json-based metadata standard to describe geospatial data. STAC is an open-source project who's goal is to make geospatial data more easily worked with, indexed, and discovered. STAC is a great option if you are a data provider that would like to make your data more open and accessible to the world. 
+**SpatioTemporal Asset Catalogs (STAC)** is a json-based metadata standard to describe geospatial data. STAC is an open-source project who's goal is to make geospatial data more easily worked with, indexed, and discovered. STAC is a great option if you are a data provider that would like to make your data more open and accessible to the world. General information can be found at [STAC Index.org](https://stacindex.org/) and the [STAC Spec](https://stacspec.org/en). 
 
 The [Open Forest Observatory(OFO)](https://openforestobservatory.org/) is indexing all datasets using the STAC json metadata standard and also serving out the data through a STAC compliant API. 
 
@@ -22,6 +22,10 @@ Alternatively, you can directly [Browse OFO STAC Catalog](https://radiantearth.g
 
 ## Access OFO Data with Python
 
+
+## How to Create STAC Json Metadata
+
+## Serving the STAC API
 
 
 
