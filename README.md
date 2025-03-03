@@ -8,11 +8,19 @@ The [Open Forest Observatory(OFO)](https://openforestobservatory.org/) is indexi
 
 OFO datasets can be browsed and searched using the [Radiant Earth STAC Browser](https://radiantearth.github.io/stac-browser/#/?.language=en). 
 
-At the search bar, type: `https://stac.cyverse.org`
+At the search bar, type: `https://stac.cyverse.org` and then click the `load` button. 
 
 <img src="./images/stac_browser_ofo.png" width=400>
 
+<br/>
+
+Alternatively, you can directly [Browse OFO STAC Catalog](https://radiantearth.github.io/stac-browser/#/external/stac.cyverse.org/)
+
 ## Access OFO Data with Python
+
+
+
+
 
 
 
