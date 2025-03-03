@@ -10,7 +10,7 @@ OFO datasets can be browsed and searched using the [Radiant Earth STAC Browser](
 
 At the search bar, type: `https://stac.cyverse.org`
 
-<img src="./images/stac_browswer_ofo.png" width=400>
+<img src="./images/stac_browser_ofo.png" width=400>
 
 ## Access OFO Data with Python
 
