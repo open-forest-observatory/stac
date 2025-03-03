@@ -22,10 +22,15 @@ Alternatively, you can directly [Browse OFO STAC Catalog](https://radiantearth.g
 
 ## Access OFO Data with Python
 
+<br/>
 
 ## How to Create STAC Json Metadata
 
+<br/>
+
 ## Serving the STAC API
+
+The OFO STAC API is being served on a VM hosted by Cyverse at the University of Arizona. Find details of the STAC API deployment at this [repository](https://github.com/cyverse-gis/cyverse-stac).
 
 
 
