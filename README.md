@@ -35,7 +35,8 @@ The python script is currently intended to run in the Cyverse Discovery Environm
 
 The python script will output two files: 
 
-  * `collection.json` 
+  * [collection.json](./stac_json/collection.json)
+  * [index.geojson](./stac_json/index.geojson) 
 
 <br/>
 
