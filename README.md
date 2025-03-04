@@ -12,13 +12,15 @@ OFO datasets can be browsed and searched using the [Radiant Earth STAC Browser](
 
 At the STAC search bar, type: `https://stac.cyverse.org` and then click the `load` button. 
 
-<img src="./images/stac_browser_ofo.png" width=400>
+<img src="./images/stac_browser_ofo.png" width=300>
 
 <br/>
 
 Alternatively, you can directly [Browse OFO STAC Catalog](https://radiantearth.github.io/stac-browser/#/external/stac.cyverse.org/)
 
 The STAC browser is an open-source project with all code available in a [github repository](https://github.com/radiantearth/stac-browser). OFO _could_ serve it's own version of the STAC browser but is currently not. 
+
+<br/>
 <br/>
 
 ## Access OFO Data with Python
@@ -26,6 +28,9 @@ The STAC browser is an open-source project with all code available in a [github 
 <br/>
 
 ## How to Create STAC Json Metadata
+
+STAC compliant json & geojson files are creating by running [this python script](./scripts/STAC_creation_OFO.ipynb) across OFO data (in Cyverse Data Store at `/data-store/iplant/home/shared/ofo/public/missions`) and across the OFO metadata gpkg file (in Cyverse Data Store at `/data-store/iplant/home/shared/ofo/public/metadata/all-mission-polygons-w-metadata.gpkg`). 
+
 
 <br/>
 
