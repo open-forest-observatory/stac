@@ -33,7 +33,7 @@ STAC compliant json & geojson files are creating by running [this python script]
 
 The python script is currently intended to run in the Cyverse Discovery Environment from the Jupyterlab:Geospatial container app. The script could be amended to run outside of the Cyverse DE if necessary. 
 
-The python script will output two files: 
+The python script will output two files. These are examples and not the production files: 
 
   * [collection.json](./stac_json/collection.json)
   * [index.geojson](./stac_json/index.geojson) 
@@ -42,7 +42,7 @@ The python script will output two files:
 
 ## Serving the STAC API
 
-The OFO STAC API is being served on a VM hosted by Cyverse at the University of Arizona. Find details of the STAC API deployment at this [repository](https://github.com/cyverse-gis/cyverse-stac).
+The OFO STAC API is being served on a VM hosted by Cyverse at the University of Arizona. Find details of the STAC API deployment at this [repository](https://github.com/cyverse-gis/cyverse-stac). This repository is where the production STAC files (`collection.json` & `index.geojson`) are kept. 
 
 
 
