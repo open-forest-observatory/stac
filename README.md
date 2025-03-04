@@ -18,6 +18,7 @@ At the STAC search bar, type: `https://stac.cyverse.org` and then click the `loa
 
 Alternatively, you can directly [Browse OFO STAC Catalog](https://radiantearth.github.io/stac-browser/#/external/stac.cyverse.org/)
 
+The STAC browser is an open-source project with all code available in a [github repository](https://github.com/radiantearth/stac-browser). OFO _could_ serve it's own version of the STAC browser but is currently not. 
 <br/>
 
 ## Access OFO Data with Python
