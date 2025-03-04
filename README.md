@@ -1,6 +1,6 @@
 # SpatioTemporal Asset Catalog
 
-**SpatioTemporal Asset Catalogs (STAC)** is a json-based metadata standard to describe geospatial data. STAC is an open-source project who's goal is to make geospatial data more easily worked with, indexed, and discovered. STAC is a great option if you are a data provider that would like to make your data more open and accessible to the world. General information can be found at [STAC Index.org](https://stacindex.org/) and the [STAC Spec](https://stacspec.org/en). 
+**SpatioTemporal Asset Catalogs (STAC)** is a json and geojson based metadata standard to describe geospatial data. STAC is an open-source project who's goal is to make geospatial data more easily worked with, indexed, and discovered. STAC is a great option if you are a data provider that would like to make your data more open and accessible to the world. General information can be found at [STAC Index.org](https://stacindex.org/) and the [STAC Spec](https://stacspec.org/en). 
 
 The [Open Forest Observatory(OFO)](https://openforestobservatory.org/) is indexing all datasets using the STAC json metadata standard and also serving out the data through a STAC compliant API. 
 
@@ -29,8 +29,13 @@ The STAC browser is an open-source project with all code available in a [github 
 
 ## How to Create STAC Json Metadata
 
-STAC compliant json & geojson files are creating by running [this python script](./scripts/STAC_creation_OFO.ipynb) across OFO data (in Cyverse Data Store at `/data-store/iplant/home/shared/ofo/public/missions`) and across the OFO metadata gpkg file (in Cyverse Data Store at `/data-store/iplant/home/shared/ofo/public/metadata/all-mission-polygons-w-metadata.gpkg`). 
+STAC compliant json & geojson files are creating by running [this python script](./scripts/STAC_creation_OFO.ipynb) across OFO data (in Cyverse Data Store at `/data-store/iplant/home/shared/ofo/public/missions`) and across the OFO metadata gpkg file (in Cyverse Data Store at `/data-store/iplant/home/shared/ofo/public/metadata/all-mission-polygons-w-metadata.gpkg`).
 
+The python script is currently intended to run in the Cyverse Discovery Environment from the Jupyterlab:Geospatial container app. The script could be amended to run outside of the Cyverse DE if necessary. 
+
+The python script will output two files: 
+
+  * `collection.json` 
 
 <br/>
 
