@@ -31,6 +31,8 @@ Learn how to use python to access OFO data using Google Colab. <a href="https://
 
 Download and run a [juypter notebook locally](./scripts/STAC_API.ipynb)
 
+<br/>
+
 ## How to Create STAC Json Metadata
 
 STAC compliant json & geojson files are creating by running [this python script](./scripts/STAC_creation_OFO.ipynb) across OFO data (in Cyverse Data Store at `/data-store/iplant/home/shared/ofo/public/missions`) and across the OFO metadata gpkg file (in Cyverse Data Store at `/data-store/iplant/home/shared/ofo/public/metadata/all-mission-polygons-w-metadata.gpkg`).
