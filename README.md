@@ -29,7 +29,7 @@ You can programmatically access OFO data through the STAC API. Pre-written pytho
 
 Learn how to use python to access OFO data using Google Colab. <a href="https://colab.research.google.com/github/open-forest-observatory/stac/blob/main/scripts/STAC_API.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-Download and run a [juypter notebook locally](./stac/scripts/STAC_API.ipynb)
+Download and run a [juypter notebook locally](./stac/blob/main/scripts/STAC_API.ipynb)
 
 ## How to Create STAC Json Metadata
 
